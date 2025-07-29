@@ -1,0 +1,7 @@
+# packages used in the app:
+
+# ...
+
+
+# packages used for testing:
+pytest
