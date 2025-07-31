@@ -38,3 +38,15 @@ Run the tests:
 # find all the tests and run them:
 pytest
 ```
+
+## Web App
+
+```sh
+FLASK_APP=web_app flask run
+```
+
++ http://127.0.0.1:5000
+  + http://localhost:5000/
+
+  
+
