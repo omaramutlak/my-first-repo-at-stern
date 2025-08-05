@@ -1,4 +1,4 @@
-# my-first-repo-summer-2025
+# my-first-repo-at-stern
 
 ## Setup
 
@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Command-line App
+
 Play a game of rock, paper scissors:
 
 ```sh
@@ -30,6 +32,19 @@ python app/rps.py
 python -m app.rps
 ```
 
+### Web App
+
+Run the web app:
+
+```sh
+FLASK_APP=web_app flask run
+```
+
+Visit in the browser, either:
+
+  + http://127.0.0.1:5000
+  + http://localhost:5000/
+
 ## Tests
 
 Run the tests:
@@ -38,16 +53,6 @@ Run the tests:
 # find all the tests and run them:
 pytest
 ```
-
-## Web App
-
-```sh
-FLASK_APP=web_app flask run
-```
-
-Visit in the browser, either
-+ http://127.0.0.1:5000
-+ http://localhost:5000/
 
 
 
